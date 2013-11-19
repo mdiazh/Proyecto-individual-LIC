@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>GUITAR ATMOSPHERE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="//fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet" type="text/css">
+        <link href="css/estilo.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/jquery-ui-1.10.3.custom.min.css" />
+
+    </head>
+    <body>
+        <div class="header-container wrapper">
+            <header >
+                <h3>Guitar Atmosphere</h3>
+                <nav >
+                     <ul id="nav-menu">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="guitar_type.html">Tipos de Guitarra</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="info.html">Personal</a></li>
+                    </ul>
+
+                </nav>
+            </header>
+
+        </div>
+        <div class="content-container wrapper">
+            <section id="contact-form">
+                <form class="contact_form" action="#" method="post">
+                    <ul>
+                        <li>
+                            <h2>Contáctanos</h2>
+                        </li>
+                        <li>
+                            <label for="name">Nombre:</label>
+                            <input type="text"  placeholder="Nombre" required />
+                        </li>
+                        <li>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="mail@email.com" required />
+                        </li>
+                        <li>
+                            <label for="website">Sitio Web:</label>
+                            <input type="url" name="web" placeholder="http://" required />
+                        </li>
+                        <li>
+                            <label for="Mensaje">Mensaje:</label>
+                            <textarea name="Mensaje" cols="40" rows="6" required ></textarea>
+                        </li>
+                        <li class="message_contact">
+                            
+                        </li>
+                        <li>                            
+                            <button class="submit" type="submit" id="contact_send">Enviar</button>
+                        </li>
+                                                <li>                            
+                            <button class="reset submit" type="reset" id="contact_send">Borrar Campos</button>
+                        </li>
+
+                    </ul>
+                </form>
+            </section>
+
+
+        </div>
+        <div id="footer-container"></div>
+        <script src="js/libs/jquery/jquery.js"></script>
+        <script src="js/libs/jqueryui/jquery-ui-1.10.3.custom.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
